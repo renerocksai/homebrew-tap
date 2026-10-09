@@ -1,4 +1,4 @@
-# Generated from verified published v0.2.6 assets by scripts/homebrew_formula.py.
+# Generated from verified published v0.2.7 assets by scripts/homebrew_formula.py.
 # Regenerate for the next release; do not edit checksum entries by hand.
 require "json"
 require "shellwords"
@@ -6,29 +6,29 @@ require "shellwords"
 class Omagma < Formula
   desc "Account-separated Gmail terminal client and agent CLI"
   homepage "https://technologylab-ai.github.io/omagma/"
-  version "0.2.6"
+  version "0.2.7"
   license "MIT"
 
   on_macos do
     depends_on macos: :ventura
     on_arm do
-      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.6/omagma-0.2.6-macos-arm64.tar.gz"
-      sha256 "86e73c5e3db83123f400e539c72d64137e2c6484bb7f518235ca2893094bd549"
+      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.7/omagma-0.2.7-macos-arm64.tar.gz"
+      sha256 "7b04e2f981e1ae9a45a0291617547453a4ada11135f72bd3a680e8313b6d48de"
     end
     on_intel do
-      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.6/omagma-0.2.6-macos-x86_64.tar.gz"
-      sha256 "8edf6ff74404ae710046194269dd2a99b03f6b088ac1495e19737ca6dfdf78ad"
+      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.7/omagma-0.2.7-macos-x86_64.tar.gz"
+      sha256 "13d4387e31896ff69fb12b1f437a0bff322b00db8c13ca847926163c06592939"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.6/omagma-0.2.6-linux-arm64.tar.gz"
-      sha256 "a91e9d045e7337be76f4188b9d119b8424c11f17de36ba1dfff5bb8cbc66a3e2"
+      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.7/omagma-0.2.7-linux-arm64.tar.gz"
+      sha256 "667868728be6ed39d9c01a5d5d2ced04d62e5e6c789df2890d68eb8da1be50bb"
     end
     on_intel do
-      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.6/omagma-0.2.6-linux-x86_64.tar.gz"
-      sha256 "f7bd5dacdb872954e212efa7ce1d7a54c0ac3da4517df91eb0ba3716392df753"
+      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.7/omagma-0.2.7-linux-x86_64.tar.gz"
+      sha256 "4800875f10694955b737ea7f5cdd7edcd35a052440e0d7b361faefa12b37a1a1"
     end
   end
 
