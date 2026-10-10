@@ -7,29 +7,29 @@ class Omagma < Formula
   desc "Account-separated Gmail terminal client and agent CLI"
   homepage "https://technologylab-ai.github.io/omagma/"
   version "0.2.7"
-  revision 1
+  revision 2
   license "MIT"
 
   on_macos do
     depends_on macos: :ventura
     on_arm do
       url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.7/omagma-0.2.7-macos-arm64.tar.gz"
-      sha256 "b2b230c59cb77e21017b5476424197100aac7ba823960208467b511704349359"
+      sha256 "6faa843a11f7c8df66e29d28032959e4cafc4ae7754439abff2e08205c26ab56"
     end
     on_intel do
       url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.7/omagma-0.2.7-macos-x86_64.tar.gz"
-      sha256 "4f95e3a92548a9b193061aec4a0141b5e276e872691578b3eaa32380c11f54d1"
+      sha256 "aa9a47c4c67edfd29ef2c5d0bbecfdfa394fe432802a2220e49d9938ddb75c7a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.7/omagma-0.2.7-linux-arm64.tar.gz"
-      sha256 "375e1f7615cf601c6a161c8e6e95c61bc00d3bb56095541b4bd44abb1b4ba102"
+      sha256 "969187a929ea72165e7cdbc9175b2a6136ce57d9c06e9a567c4f340ed1f0222e"
     end
     on_intel do
       url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.7/omagma-0.2.7-linux-x86_64.tar.gz"
-      sha256 "44911b276cf42b94d089fde99cbe582b7142da6a95bff5107ae67e6d994304d4"
+      sha256 "9ace93ca5ccd14e67c2289ef51c524bc0f3edc86c6da0ef29c6a1a22088a7cff"
     end
   end
 
