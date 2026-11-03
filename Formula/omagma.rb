@@ -1,4 +1,4 @@
-# Generated from verified published v0.2.17 assets by scripts/homebrew_formula.py.
+# Generated from verified published v0.2.18 assets by scripts/homebrew_formula.py.
 # Regenerate for the next release; do not edit checksum entries by hand.
 require "json"
 require "shellwords"
@@ -6,29 +6,26 @@ require "shellwords"
 class Omagma < Formula
   desc "Account-separated Gmail terminal client and agent CLI"
   homepage "https://technologylab-ai.github.io/omagma/"
-  version "0.2.17"
+  version "0.2.18"
   license "MIT"
 
   on_macos do
     depends_on macos: :ventura
+    depends_on arch: :arm64
     on_arm do
-      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.17/omagma-0.2.17-macos-arm64.tar.gz"
-      sha256 "9a976ea0470f1c6e83aaf4508f74833ddb26173a89bfbcd2c47045f35cffd1a9"
-    end
-    on_intel do
-      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.17/omagma-0.2.17-macos-x86_64.tar.gz"
-      sha256 "b8ec8caae8cdbe1487223259b83de168343b4ce8d315bfbc5894fd723b0555ef"
+      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.18/omagma-0.2.18-macos-arm64.tar.gz"
+      sha256 "557d4e5e375923aac7ed95556c184f290099ee3ae28550c11f006357ef3ff38c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.17/omagma-0.2.17-linux-arm64.tar.gz"
-      sha256 "d3d8fb6412164d6507fec3be65c72bc1b3ceae188fe75f81ae987c55977dfffc"
+      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.18/omagma-0.2.18-linux-arm64.tar.gz"
+      sha256 "73fb03cb0ebac7f3f782d7dbd95787d3a395cc67b492c97334760895cc826048"
     end
     on_intel do
-      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.17/omagma-0.2.17-linux-x86_64.tar.gz"
-      sha256 "e2bc78f989e7a70ef6f3628cbea835b69d4ebe6702a84f4582f9aa33d86cde26"
+      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.18/omagma-0.2.18-linux-x86_64.tar.gz"
+      sha256 "7c06339fda82bf5a12907f9125984f402f36b4b852159fa98e64db9e73715fff"
     end
   end
 
