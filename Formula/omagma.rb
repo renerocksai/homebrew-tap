@@ -1,4 +1,4 @@
-# Generated from verified published v0.2.18 assets by scripts/homebrew_formula.py.
+# Generated from verified published v0.2.19 assets by scripts/homebrew_formula.py.
 # Regenerate for the next release; do not edit checksum entries by hand.
 require "json"
 require "shellwords"
@@ -6,26 +6,26 @@ require "shellwords"
 class Omagma < Formula
   desc "Account-separated Gmail terminal client and agent CLI"
   homepage "https://technologylab-ai.github.io/omagma/"
-  version "0.2.18"
+  version "0.2.19"
   license "MIT"
 
   on_macos do
     depends_on macos: :ventura
     depends_on arch: :arm64
     on_arm do
-      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.18/omagma-0.2.18-macos-arm64.tar.gz"
-      sha256 "557d4e5e375923aac7ed95556c184f290099ee3ae28550c11f006357ef3ff38c"
+      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.19/omagma-0.2.19-macos-arm64.tar.gz"
+      sha256 "69120e3aff13d5173aaaa50ac83f9098aa407877123c2b2da587d87acfe9d5ca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.18/omagma-0.2.18-linux-arm64.tar.gz"
-      sha256 "73fb03cb0ebac7f3f782d7dbd95787d3a395cc67b492c97334760895cc826048"
+      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.19/omagma-0.2.19-linux-arm64.tar.gz"
+      sha256 "e00c5843d420fd693f083c6b1ec9f380aa7e8834c80f283b113971b9e30f6bab"
     end
     on_intel do
-      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.18/omagma-0.2.18-linux-x86_64.tar.gz"
-      sha256 "7c06339fda82bf5a12907f9125984f402f36b4b852159fa98e64db9e73715fff"
+      url "https://github.com/technologylab-ai/omagma/releases/download/v0.2.19/omagma-0.2.19-linux-x86_64.tar.gz"
+      sha256 "7fff78fe8aa850229890be4afdf901e4c72782c64e280e89561d97bd225cff8e"
     end
   end
 
